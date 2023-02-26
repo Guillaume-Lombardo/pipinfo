@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pipinfo"
+version = "0.0.1"
+authors = [
+  { name="Guillaume Lombardo", email="guillaume@g1lom.life" },
+]
+description = "this module aims to use information produced by pipdeptree and compare it to pypi to get information about \"technical debt\" and cve"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Guillaume-Lombardo/pipinfo"
+"Bug Tracker" = "https://github.com/Guillaume-Lombardo/pipinfo/issues"
