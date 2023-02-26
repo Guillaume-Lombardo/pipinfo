@@ -1,3 +1,4 @@
+# https://packaging.python.org/en/latest/specifications/declaring-project-metadata/#declaring-project-metadata
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
@@ -8,13 +9,19 @@ version = "0.0.1"
 authors = [
   { name="Guillaume Lombardo", email="guillaume@g1lom.life" },
 ]
+maintainers = [
+  { name="Guillaume Lombardo", email="guillaume@g1lom.life" },
+]
+keywords = ["pip", "pipdeptree", "cve"]
 description = "this module aims to use information produced by pipdeptree and compare it to pypi to get information about \"technical debt\" and cve"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
+    # https://pypi.org/classifiers/
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+    "Development Status :: 2 - Pre-Alpha",
 ]
 
 [project.urls]
